@@ -1,0 +1,14 @@
+split:
+  test_size: 0.2
+  random_state: 42
+
+normalize:
+  method: "StandardScaler"
+
+gridsearch:
+  n_trials: 600
+  validation_size: 0.3
+  
+model:
+  type: "XGBoost"
+  random_state: 42
