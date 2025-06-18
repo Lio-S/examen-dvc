@@ -1,2 +1,7 @@
 /venv
 /clean_data.csv
+*.dvc
+/data/raw/raw.csv
+/data/processed/
+/models/
+/metrics/
